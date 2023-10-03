@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.21.4",
+    "canvas": "^2.11.2",
+    "chartjs-node-canvas": "^4.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "request-ip": "^3.3.0"
+  }
+}

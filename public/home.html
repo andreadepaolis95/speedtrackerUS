@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Speedtracker - Home</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" >
+
+
+    <style>
+
+        html{
+            background-color: rgb(229, 210, 248);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+    
+          .header {
+            margin-top: 50px;
+            width: 100%;
+            text-align: center;
+            
+          }
+    
+    
+          .box{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            margin-top: 7%;
+        }
+    
+          .card{
+
+            border-radius: 8px;
+            min-height: 400px;
+            min-width: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+
+          }
+
+          .card:hover{
+            transform: scale(1.02);
+            transition-duration: 0.4s;
+          }
+    
+    
+          .card1{
+            background-color: rgb(244, 172, 216);
+          }
+
+          .card2{
+            background-color: rgb(197, 158, 199);
+
+          }
+    
+          .card3{
+            background-color: rgb(247, 178, 178);
+
+          }
+
+          a{
+            color: black;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            opacity: 0.6;
+          }
+
+          .down{
+            width: 100%;
+            background-color: #eaa6f7;
+            border-radius: 8px;
+            min-height: 40px;
+            min-width: 400px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+          }
+    
+          .down:hover{
+            transform: scale(1.02);
+            transition-duration: 0.4s;
+          }
+    
+      </style>
+
+  </head>
+
+  <body>
+  <div class="header">
+    <h1>Download</h1> 
+  </div>
+  <div class="box">
+  <a href="/download?file=5" >
+    <div class="card card1">
+      Download File 5Mb
+    </div>
+  </a>
+  <a href="/download?file=10">
+  <div class="card card2">
+    Download File 10Mb
+  </div>
+  </a>
+  <a href="/download?file=25">
+    <div class="card card3">
+        Download File 25Mb
+    </div>
+  </a>
+  </div>
+    <div class="box">
+        <a href="/log">
+          <div class="down">Visualizza Dati</div>
+        </a>
+    </div>
+  </body>
+</html>
