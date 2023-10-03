@@ -6,23 +6,23 @@ const getLocation = (country) => {
 
     if(country == 'Sweden'){
         location = 'Linköping, Sweden';
-        distance = 1026.28,
-        distanceAsString = '1026.28';
+        distance = 7941.08,
+        distanceAsString = '7941.08';
 
     } else if( country == 'United States'){
         location = 'Ashburn, United States';
-        distance = 7517.13;
-        distanceAsString = '7517.13';
+        distance = 3494.20;
+        distanceAsString = '3494.20';
 
     } else if( country == 'Italy'){
         location = 'Rome, Italy';
-        distance = 959.40;
-        distanceAsString = '959.40';
+        distance = 9389.47;
+        distanceAsString = '9389.47';
         
     } else if( country == 'Singapore'){
         location  = 'Singapore, Singapore';
-        distance = 10257.59;
-        distanceAsString = '10257.59';
+        distance = 13315.17;
+        distanceAsString = '13315.17';
 
         
     }
