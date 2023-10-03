@@ -36,7 +36,7 @@ const loadGraphPageHtml = async(logFilePath) => {
       <style> 
       
       html{
-        background-color: rgb(229, 210, 248);
+        background-color: #8288fa;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
